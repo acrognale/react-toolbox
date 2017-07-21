@@ -106,6 +106,7 @@
     "lint:css": "stylelint ./components/**/*.css",
     "lint:js": "eslint ./ --ext .js",
     "lint:staged": "lint-staged",
+    "install": "npm run build",
     "patch": "bumped release patch",
     "prebuild": "npm run clean",
     "prepublish": "npm run build",
